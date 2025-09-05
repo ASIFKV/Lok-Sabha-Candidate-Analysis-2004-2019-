@@ -3,19 +3,17 @@
 This repository contains a reproducible data-analysis pipeline (designed to run in Google Colab) that cleans, explores, and analyses candidate affidavit data for Indian Lok Sabha general elections (combined for multiple years). The goal: turn messy affidavit spreadsheets into reliable analysis-ready data, run EDA, answer targeted research questions (gender/wealth/education/criminality), and produce charts and summary tables useful for reporting or further modelling.
 Step-by-step pipeline & scripts
 
-This section describes each major step and what the corresponding script/notebook does.
+**This section describes each major step and what the corresponding script/notebook does.**
 
-Step 0 — Prepare / Upload data
+**Step 0 — Prepare / Upload data**
 
-Place the combined file in Colab at /content/LokSabhacandidate_datacombined_2004,2009,2014,2019.xlsx (or your chosen filename).
+Placed the combined file in Colab at /content/LokSabhacandidate_datacombined_2004,2009,2014,2019.xlsx (filename).
 
 Keep separate raw/ copies and never overwrite originals.
 
-Recommended: name the upload clearly and include the year column in your combined file (so rows from different years can be distinguished).
 
-Step 1 — Load & Inspect (pre-clean checks)
+**Step 1 — Load & Inspect (pre-clean checks)**
 
-Script: notebooks/00_load_and_inspect.ipynb or the top of 01_cleaning.ipynb
 Purpose: quick, conservative checks before transforming:
 
 load file as object types to inspect raw formatting
@@ -28,10 +26,9 @@ list unique counts for each column
 
 Why: prevents accidental type coercion and gives you a clear view of messy formats (Indian monetary formats, free-text criminal fields).
 
-Step 2 — Data cleaning / preprocessing
+**Step 2 — Data cleaning / preprocessing**
 
-Script: notebooks/01_cleaning.ipynb or scripts/cleaning.py
-Main actions performed (conservative & reversible):
+Main actions performed:
 
 Normalize column names to snake_case.
 
