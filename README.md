@@ -58,7 +58,7 @@ Save cleaned dataset: /content/LokSabhacandidate_datacleaned_prelim.xlsx and .cs
 
 Why conservative? We keep original raw columns and create derived columns (*_inr, *_std, *_num) instead of overwriting originals — this helps traceability and audit.
 
-Step 3 — Exploratory Data Analysis (EDA)
+**Step 3 — Exploratory Data Analysis (EDA)**
 
 Script: notebooks/02_eda.ipynb or scripts/eda.py
 What it generates:
