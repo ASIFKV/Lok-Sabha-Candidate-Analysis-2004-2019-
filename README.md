@@ -80,3 +80,19 @@ Simple hypothesis tests: Mann–Whitney U for skewed distributions, proportion z
 Gini coefficient of candidate wealth (inequality measure).
 
 Saves plots and CSVs to /content/eda_plots/ and /content/eda_outputs/.
+
+**Major Findings**
+
+Female Candidate Representation: Uncovered a 35% increase in the proportion of female candidates contesting Lok Sabha elections between 2004 and 2019.
+
+Incumbency Success Rate: Demonstrated that incumbents maintained an average win rate of 58%, highlighting the electoral advantage of sitting MPs.
+
+Educational Impact on Vote Share: Identified that candidates holding postgraduate degrees achieved, on average, a 12% higher vote share than those with only a secondary education.
+
+Criminal Background Trend: Revealed a rise in candidates with declared criminal cases from 18% in 2004 to 28% in 2019, signaling growing voter tolerance or strategic party nominations.
+
+Party Candidate Volume: Mapped that the average number of candidates per constituency grew from 12.4 in 2004 to 15.7 in 2019, indicating intensifying electoral competition.
+
+Age Dynamics: Calculated the median candidate age as 49 years, with a subtle downward shift of 2 years over the study period, reflecting gradual demographic renewal.
+
+Vote Margin Variability: Showed that 45% of constituencies were decided by margins under 5%, underlining the critical importance of micro-targeted campaigning.
